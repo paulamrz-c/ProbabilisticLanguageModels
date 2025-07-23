@@ -43,8 +43,21 @@ Each notebook features:
 
 ---
  
+
 ##  Sample Queries Tested
- 
-- Bigram generation starting with `"he"`
-- Sentence generation with various seeds and random sampling
+
+- Unigram probability calculation for specific words
+- Bigram probability calculation for word pairs (e.g., `"financial"`, `"support"`)
+- Bigram-based text generation starting with a given seed (e.g., `"he"`)
+- Random sentence generation using unigram and bigram models
+- Testing additive smoothing on unseen word
+
+## 🚀 Quick Start
+
+```bash
+python -m venv venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\activate
+pip install -r requirements.txt
+```
 
