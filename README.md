@@ -25,10 +25,10 @@ Each notebook features:
 
 ## Project Structure
  
-- `NLP_Workshop_Probabilistic_Language_Models.ipynb`  
+- `ProbabilisticLanguageModels.ipynb`  
   - N-gram modeling, text generation, and probabilistic analysis
 
-- `data/`  
+- `data`  
   - Contains the dataset: a collection of FAQs generated using ChatGPT, with questions and answers on various topics
 
  
